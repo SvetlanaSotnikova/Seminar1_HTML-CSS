@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family:  */
+}
+
+a {
+    text-decoration: none;
+}
+
+@layer link, link_2;
+
+@layer link {
+
+    .menu {
+        color: cornflowerblue;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .menu a {
+        color: cornflowerblue;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .menu a:hover {
+        font-size: 20px;
+        /* color: rgb(253, 75, 68); */
+    }
+
+    .menu a:active {
+        color: rgb(253, 75, 68);
+    }
+
+}
+
+@layer link_2 {
+
+    a:first-child {
+        font-style: italic;
+    }
+
+    a:nth-child(n+2) {
+        color: rgb(245, 114, 169);
+    }
+}
+
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.level_h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.form_text {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.form_button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.one {
+    color: red;
+}
+
+.one:hover {
+    opacity: 0.5;
+    color: rgb(78, 80, 146);
+}
+
+.product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.main-content {
+    max-width: 1100px;
+    text-align: justify;
+}
+
+.block_1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.block_2 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.block_3 {
+    margin: 30px;
+    padding: 40px;
+}
+
+.card {
+    background-color: beige;
+}
