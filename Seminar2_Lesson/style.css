@@ -101,17 +101,6 @@ p {
     color: rgb(78, 80, 146);
 }
 
-.product {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-}
-
-.main-content {
-    max-width: 1100px;
-    text-align: justify;
-}
-
 .block_1 {
     margin: 10px;
     padding: 10px;
